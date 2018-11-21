@@ -7,6 +7,6 @@ node {
         print 'Seconf stage'
     }
     stage ('print variable'){
-        print 'build number : $BUILD_NUMBER'
+        sh 'echo build number : $BUILD_NUMBER'
     }
 }
