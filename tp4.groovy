@@ -8,4 +8,5 @@ node {
     }
     stage ('print variable'){
         print 'build number : $BUILD_NUMBER'
+    }
 }
