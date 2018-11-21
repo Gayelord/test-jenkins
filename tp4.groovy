@@ -1,6 +1,6 @@
 node {
     stage('first'){
-        print "Hello"
+        print "Hello from Github"
         sh 'env'
     }
 }
