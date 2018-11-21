@@ -13,4 +13,5 @@ node {
     }
     stage ('Loic'){
         print 'Pourquoi '+ my_variable + ' ?'
+    }
 }
