@@ -1,3 +1,5 @@
+def my_variable="Loic à faim"
+
 node {
     stage('first'){
         print "Hello from Github"
@@ -9,4 +11,6 @@ node {
     stage ('print variable'){
         sh 'echo build number : $BUILD_NUMBER'
     }
+    stage ('Loic'){
+        print 'Pourquoi '+ my_variable + ' ?'
 }
