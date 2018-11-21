@@ -14,4 +14,7 @@ node {
     stage ('Loic'){
         print 'Pourquoi '+ my_variable + ' ?'
     }
+    stage ('réponse'){
+        print "Bha, $params.param_string"
+    }
 }
